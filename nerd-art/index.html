@@ -3,7 +3,7 @@
 <!-- Based on example http://jmcglone.com/guides/github-pages/ -->
 <head>
   <title>RiLeone - Nerd Art</title>
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 
 <body>
@@ -18,181 +18,197 @@
 
   <h1>Nerd Art</h1>
   <div class="container">
-    <p>Enjoy some Nerd Art. All of the images have been generated with Python scripts
-    and the source code can be found on <a href="http://github.com/RiLeone">GitHub</a>.</p>
+    <p>Enjoy some Nerd Art. All of the images have been generated with Python
+      scripts and the source code can be found on
+      <a href="http://github.com/RiLeone">GitHub</a> (some projects might still
+      be set to private).</p>
   </div>
 
-  <h2> Solar System </h2>
-  <div class="container">
-    <div class="slideshow-container">
-      <!-- Slideshow container -->
-      <!-- Based on https://www.w3schools.com/howto/howto_js_slideshow.asp -->
-      <script src="slideshow.js"></script>
+  <h2>City Skylines</h2>
+  <p>
+    Cities are assemblies of buildings, disposed in a sort of regular grid. One
+    could generate cities by randomly bringing together buildings. How would
+    that look like? Here are some examples, far from being complete.
+  </p>
 
-      <div class="mySlides fade">
-        <div class="numbertext">1</div>
-        <img src="img/solar_system_00.png" style="width:100%">
-        <div class="text">Solar system impression</div>
-      </div>
-
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <div class="container" align="center">
+    <div class="gallery">
+      <a target="_blank" href="cityscapes/random_city_clear_day.png">
+        <img src="cityscapes/random_city_clear_day.png" width="200">
+      </a>
+      <div class="desc">Solar system view.</div>
     </div>
-    <br>
 
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
+    <div class="gallery">
+      <a target="_blank" href="cityscapes/random_city_clear_sunset.png">
+        <img src="cityscapes/random_city_clear_sunset.png" width="200">
+      </a>
+      <div class="desc">Solar system view.</div>
     </div>
+
+    <div class="gallery">
+      <a target="_blank" href="cityscapes/random_city_clear_night.png">
+        <img src="cityscapes/random_city_clear_night.png" width="200">
+      </a>
+      <div class="desc">Solar system view.</div>
+    </div>
+
   </div>
 
-  <h2> Fractals </h2>
-  <div class="container">
-    <div class="slideshow-container">
-      <!-- Slideshow container -->
-      <!-- Based on https://www.w3schools.com/howto/howto_js_slideshow.asp -->
-      <script src="slideshow.js"></script>
+  <h2>Universe</h2>
+  <p>
+    How do you illustrate our stellar neighborhood? How do you fit the solar
+    system into a single image? How can you generate a spiral galaxy image from
+    code? These are some of the driving quesitons of this section.
+  </p>
 
-      <div class="mySlides fade">
-        <div class="numbertext">1</div>
-        <img src="img/solar_system_00.png" style="width:100%">
-        <div class="text">Solar system impression</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">2</div>
-        <img src="img/julia_00.png" style="width:100%">
-        <div class="text">Julia set</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">3</div>
-        <img src="img/julia_01.png" style="width:100%">
-        <div class="text">Julia set</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">4</div>
-        <img src="img/julia_02.png" style="width:100%">
-        <div class="text">Julia set</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">5</div>
-        <img src="img/julia_03.png" style="width:100%">
-        <div class="text">Julia set</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">6</div>
-        <img src="img/julia_04.png" style="width:100%">
-        <div class="text">Julia set detail</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">7</div>
-        <img src="img/julia_05.png" style="width:100%">
-        <div class="text">Julia set</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">8</div>
-        <img src="img/julia_06.png" style="width:100%">
-        <div class="text">Julia set</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">9</div>
-        <img src="img/mandelbrot_00.png" style="width:100%">
-        <div class="text">Mandelbrot set</div>
-      </div>
-
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <div class="container" align="center">
+    <div class="gallery">
+      <a target="_blank" href="universe/solar_system_00.png">
+        <img src="universe/solar_system_00.png" width="200">
+      </a>
+      <div class="desc">Solar system view.</div>
     </div>
-    <br>
 
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-      <span class="dot" onclick="currentSlide(5)"></span>
-      <span class="dot" onclick="currentSlide(6)"></span>
-      <span class="dot" onclick="currentSlide(7)"></span>
-      <span class="dot" onclick="currentSlide(8)"></span>
-      <span class="dot" onclick="currentSlide(9)"></span>
+    <div class="gallery">
+      <a target="_blank" href="universe/galaxy_00.png">
+        <img src="universe/galaxy_00.png" width="200">
+      </a>
+      <div class="desc">Sort of a spiral galaxy.</div>
     </div>
+
   </div>
 
+  <br>
+
+  <h2>Fractals</h2>
+
+  <p>
+    Fractals are fascinating: structures repeating themselves often emerging
+    from simple, iterative processes. Here are some colored Julia sets.
+  </p>
+
+  <div class="container" align="center">
+      <div class="gallery">
+        <a target="_blank" href="fractals/julia_00.png">
+          <img src="fractals/julia_00.png" width="200">
+        </a>
+        <div class="desc">A Julia set.</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="fractals/julia_01.png">
+          <img src="fractals/julia_01.png" width="200">
+        </a>
+        <div class="desc">A Julia set.</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="fractals/julia_02.png">
+          <img src="fractals/julia_02.png" width="200">
+        </a>
+        <div class="desc">A Julia set.</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="fractals/julia_03.png">
+          <img src="fractals/julia_03.png" width="200">
+        </a>
+        <div class="desc">A Julia set.</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="fractals/julia_04.png">
+          <img src="fractals/julia_04.png" width="200">
+        </a>
+        <div class="desc">Julia set detail.</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="fractals/julia_05.png">
+          <img src="fractals/julia_05.png" width="200">
+        </a>
+        <div class="desc">A Julia set.</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="fractals/julia_06.png">
+          <img src="fractals/julia_06.png" width="200">
+        </a>
+        <div class="desc">A Julia set.</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="fractals/mandelbrot_00.png">
+          <img src="fractals/mandelbrot_00.png" width="200">
+        </a>
+        <div class="desc">The Mandelbrot set.</div>
+      </div>
+
+  </div>
+
+  <br>
 
   <h2> Basically Circles </h2>
-  <div class="container">
-    <div class="slideshow-container">
-      <!-- Slideshow container -->
-      <!-- Based on https://www.w3schools.com/howto/howto_js_slideshow.asp -->
-      <script src="slideshow.js"></script>
 
-      <div class="mySlides fade">
-        <div class="numbertext">1</div>
-        <img src="basically_circles/earth.png" style="width:100%">
-        <div class="text">Our blue marble.</div>
-      </div>
+  <p>
+    Many "things" can be simplified and contrained to a circle. Reducing
+    subjects to their essentials while still clearly communicating their
+    identity was the goal of this project.
+  </p>
 
-      <div class="mySlides fade">
-        <div class="numbertext">2</div>
-        <img src="basically_circles/pokeball.png" style="width:100%">
-        <div class="text">Gotta catch'em all!</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">4</div>
-        <img src="basically_circles/cactus.png" style="width:100%">
-        <div class="text">Cacti defend themselves.</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">5</div>
-        <img src="basically_circles/ballbearing.png" style="width:100%">
-        <div class="text">Ball bearings keep you rollin'.</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">6</div>
-        <img src="basically_circles/cameralens.png" style="width:100%">
-        <div class="text">In front or behind, lenses are fascinating.</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">7</div>
-        <img src="basically_circles/virus.png" style="width:100%">
-        <div class="text">There's a pandemic out there.</div>
-      </div>
-
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <div class="container"  align="center">
+    <div class="gallery">
+      <a target="_blank" href="basically_circles/earth.png">
+        <img src="basically_circles/earth.png" width="200">
+      </a>
+      <div class="desc">Our blue marble.</div>
     </div>
-    <br>
 
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-      <span class="dot" onclick="currentSlide(5)"></span>
-      <span class="dot" onclick="currentSlide(6)"></span>
-      <span class="dot" onclick="currentSlide(7)"></span>
+    <div class="gallery">
+      <a target="_blank" href="basically_circles/pokeball.png">
+        <img src="basically_circles/pokeball.png" width="200">
+      </a>
+      <div class="desc">Gotta catch'em all!</div>
     </div>
+
+    <div class="gallery">
+      <a target="_blank" href="basically_circles/cactus.png">
+        <img src="basically_circles/cactus.png" width="200">
+      </a>
+      <div class="desc">Cacti defend themselves.</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="basically_circles/ballbearing.png">
+        <img src="basically_circles/ballbearing.png" width="200">
+      </a>
+      <div class="desc">Ball bearings keep you rollin'.</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="basically_circles/cameralens.png">
+        <img src="basically_circles/cameralens.png" width="200">
+      </a>
+      <div class="desc">Behind or in front, lenses are fascinating.</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="basically_circles/virus.png">
+        <img src="basically_circles/virus.png" width="200">
+      </a>
+      <div class="desc">There's a pandemic out here.</div>
+    </div>
+
   </div>
 
-  <div class="container">
-    <p><a href="https://rileone.github.io">Get me back!</a></p>
-  </div>
+  <br>
+
+  <footer>
+    <div class="container">
+      <p><a href="https://rileone.github.io">Take me back!</a></p>
+    </div>
+  </footer>
 
 </body>
 </html>
