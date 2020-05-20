@@ -21,91 +21,148 @@
     <p>Enjoy some Nerd Art. All of the images have been generated with Python scripts
     and the source code can be found on <a href="http://github.com/RiLeone">GitHub</a>.</p>
   </div>
-    <!-- Slideshow container -->
-    <!-- Based on https://www.w3schools.com/howto/howto_js_slideshow.asp -->
-  <script src="slideshow.js"></script>
 
-  <div class="slideshow-container">
+  <h2> Fractals </h2>
+  <div class="container">
+    <div class="slideshow-container">
+      <!-- Slideshow container -->
+      <!-- Based on https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+      <script src="slideshow.js"></script>
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <div class="numbertext">1</div>
-      <img src="img/galaxy_00.png" style="width:100%">
-      <div class="text">Spiral galaxy impression</div>
+      <div class="mySlides fade">
+        <div class="numbertext">1</div>
+        <img src="img/solar_system_00.png" style="width:100%">
+        <div class="text">Solar system impression</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2</div>
+        <img src="img/julia_00.png" style="width:100%">
+        <div class="text">Julia set</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3</div>
+        <img src="img/julia_01.png" style="width:100%">
+        <div class="text">Julia set</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4</div>
+        <img src="img/julia_02.png" style="width:100%">
+        <div class="text">Julia set</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5</div>
+        <img src="img/julia_03.png" style="width:100%">
+        <div class="text">Julia set</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6</div>
+        <img src="img/julia_04.png" style="width:100%">
+        <div class="text">Julia set detail</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7</div>
+        <img src="img/julia_05.png" style="width:100%">
+        <div class="text">Julia set</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">8</div>
+        <img src="img/julia_06.png" style="width:100%">
+        <div class="text">Julia set</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">9</div>
+        <img src="img/mandelbrot_00.png" style="width:100%">
+        <div class="text">Mandelbrot set</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+    <br>
 
-    <div class="mySlides fade">
-      <div class="numbertext">2</div>
-      <img src="img/solar_system_00.png" style="width:100%">
-      <div class="text">Solar system impression</div>
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
     </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">3</div>
-      <img src="img/julia_00.png" style="width:100%">
-      <div class="text">Julia set</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">4</div>
-      <img src="img/julia_01.png" style="width:100%">
-      <div class="text">Julia set</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">5</div>
-      <img src="img/julia_02.png" style="width:100%">
-      <div class="text">Julia set</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">6</div>
-      <img src="img/julia_03.png" style="width:100%">
-      <div class="text">Julia set</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">7</div>
-      <img src="img/julia_04.png" style="width:100%">
-      <div class="text">Julia set detail</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">8</div>
-      <img src="img/julia_05.png" style="width:100%">
-      <div class="text">Julia set</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">9</div>
-      <img src="img/julia_06.png" style="width:100%">
-      <div class="text">Julia set</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">9</div>
-      <img src="img/mandelbrot_00.png" style="width:100%">
-      <div class="text">Mandelbrot set</div>
-    </div>
-
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
-  <br>
 
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-    <span class="dot" onclick="currentSlide(6)"></span>
-    <span class="dot" onclick="currentSlide(7)"></span>
-    <span class="dot" onclick="currentSlide(8)"></span>
-    <span class="dot" onclick="currentSlide(9)"></span>
-    <span class="dot" onclick="currentSlide(10)"></span>
+
+  <h2> Basically Circles </h2>
+  <div class="container">
+    <div class="slideshow-container">
+      <!-- Slideshow container -->
+      <!-- Based on https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+      <script src="slideshow.js"></script>
+
+      <div class="mySlides fade">
+        <div class="numbertext">1</div>
+        <img src="basically_circles/earth.png" style="width:100%">
+        <div class="text">Our blue marble.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2</div>
+        <img src="basically_circles/pokeball.png" style="width:100%">
+        <div class="text">Gotta catch'em all!</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4</div>
+        <img src="basically_circles/cactus.png" style="width:100%">
+        <div class="text">Cacti defend themselves.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5</div>
+        <img src="basically_circles/ballbearing.png" style="width:100%">
+        <div class="text">Ball bearings keep you rollin'.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6</div>
+        <img src="basically_circles/cameralens.png" style="width:100%">
+        <div class="text">In front or behind, lenses are fascinating.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7</div>
+        <img src="basically_circles/virus.png" style="width:100%">
+        <div class="text">There's a pandemic out there.</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+    </div>
   </div>
 
   <div class="container">
