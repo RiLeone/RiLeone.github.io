@@ -1,10 +1,16 @@
+* {
+  font-family: 'Computer Modern', 'Times New Roman', 'Times', 'Serif';
+}
+
+hr {
+  height: 1px;
+}
+
 body {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
-    width: 70%;
+    width: 66%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -22,7 +28,9 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 {
+  font-size: 2em;
 }
 p {
     font-size: 1.5em;
@@ -32,7 +40,7 @@ p {
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #000;
     font-size: .8em;
 }
 
@@ -59,11 +67,10 @@ div.gallery {
   /*margin: 1px;*/
   border: 1px solid #fff;
   float: left;
-  width: 250px;
-  height: 250px;
+  width: 32%;
 }
 
-div.gallery img {
+img {
   height: auto;
   width: 100%;
   vertical-align: middle;
